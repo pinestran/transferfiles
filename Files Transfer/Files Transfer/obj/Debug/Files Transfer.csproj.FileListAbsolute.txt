@@ -1,0 +1,10 @@
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\obj\Debug\Files Transfer.csprojAssemblyReference.cache
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\bin\Debug\Files Transfer.exe.config
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\bin\Debug\Files Transfer.exe
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\bin\Debug\Files Transfer.pdb
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\obj\Debug\Main.resources
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\obj\Debug\Files_Transfer.Properties.Resources.resources
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\obj\Debug\Files Transfer.csproj.GenerateResource.cache
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\obj\Debug\Files Transfer.csproj.CoreCompileInputs.cache
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\obj\Debug\Files Transfer.exe
+D:\nams\LapTrinhMang\Projects\Files Transfer\Files Transfer\obj\Debug\Files Transfer.pdb
