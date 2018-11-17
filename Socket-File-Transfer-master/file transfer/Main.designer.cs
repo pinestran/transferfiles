@@ -78,7 +78,7 @@
             this.toolStripSplitButton2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(446, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(456, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -101,7 +101,7 @@
             this.portToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.txtServerPort});
             this.portToolStripMenuItem.Name = "portToolStripMenuItem";
-            this.portToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.portToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.portToolStripMenuItem.Text = "Port";
             // 
             // txtServerPort
@@ -113,19 +113,18 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(95, 6);
             // 
             // btnStartServer
             // 
             this.btnStartServer.Name = "btnStartServer";
-            this.btnStartServer.Size = new System.Drawing.Size(180, 22);
+            this.btnStartServer.Size = new System.Drawing.Size(98, 22);
             this.btnStartServer.Text = "Start";
-            this.btnStartServer.Click += new System.EventHandler(this.btnStartServer_Click_1);
             // 
             // btnStopServer
             // 
             this.btnStopServer.Name = "btnStopServer";
-            this.btnStopServer.Size = new System.Drawing.Size(180, 22);
+            this.btnStopServer.Size = new System.Drawing.Size(98, 22);
             this.btnStopServer.Text = "Stop";
             // 
             // toolStripSeparator1
@@ -203,7 +202,7 @@
             this.lstTransfers.FullRowSelect = true;
             this.lstTransfers.Location = new System.Drawing.Point(12, 28);
             this.lstTransfers.Name = "lstTransfers";
-            this.lstTransfers.Size = new System.Drawing.Size(409, 132);
+            this.lstTransfers.Size = new System.Drawing.Size(432, 132);
             this.lstTransfers.TabIndex = 2;
             this.lstTransfers.UseCompatibleStateImageBehavior = false;
             this.lstTransfers.View = System.Windows.Forms.View.Details;
@@ -277,16 +276,16 @@
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3,
             this.progressOverall});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 184);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 165);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(446, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(456, 22);
             this.statusStrip1.TabIndex = 3;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // lblConnected
             // 
             this.lblConnected.Name = "lblConnected";
-            this.lblConnected.Size = new System.Drawing.Size(227, 17);
+            this.lblConnected.Size = new System.Drawing.Size(237, 17);
             this.lblConnected.Spring = true;
             this.lblConnected.Text = "Connection: -";
             // 
@@ -312,7 +311,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(446, 206);
+            this.ClientSize = new System.Drawing.Size(456, 187);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.lstTransfers);
             this.Controls.Add(this.toolStrip1);
