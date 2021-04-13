@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T03:16:26.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_IK9MHmmd4fxqXWg-Eoe" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T03:27:54.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="MauUKbQRxMoFiKBi8EAx" version="14.5.10" type="github">
   <diagram id="VoQYFksiuE6N1fxM7Q7Q" name="Page-1">
     <mxGraphModel dx="1038" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -96,6 +96,24 @@
         </mxCell>
         <mxCell id="kZEs2HqjManc7GenbBka-50" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Currently, in Dawn project, The APPLICATION PLATFORMs are created by Rollout team, Device registered into PLATFORM APPLICATION to get&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;endpointArn when user sigup application on device.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;So, when we develop the CPNM FS3 In-app Notification APIs, We cann&#39;t reuse endpointARN from project team any more, we have to create new&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;and mange by channelID.&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Let&#39;s move to the next part for the scope of works and API integration.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="2910" width="790" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kZEs2HqjManc7GenbBka-51" value="1. PLATFORM APPLICATION" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="43.230000000000004" y="1210" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kZEs2HqjManc7GenbBka-52" value="2. Register application endpoint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1263" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kZEs2HqjManc7GenbBka-53" value="3. Publish Message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1330" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kZEs2HqjManc7GenbBka-54" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Rollout Team will help us create the Platform Application via the Console AWS.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;The rule name of Application Platform will be: ChannelID_Platform_Env. (Ex: TMOne_GCM_PRD)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1230" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZEs2HqjManc7GenbBka-55" value="Raven team have to integrate this API.&lt;br&gt;Please reference to the US for more details." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1283" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZEs2HqjManc7GenbBka-56" value="Raven team have to integrate this API. We will support for publish message to single, multiple, all numbers in channel&lt;br&gt;Please reference to the US for more details." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1350" width="640" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
