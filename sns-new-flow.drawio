@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T07:56:06.257Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="Fk2r9bxSGtZNggCPn7ul" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-26T07:57:22.715Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="NGFEZgZOhZX-LryQG9Tc" version="14.6.1" type="github">
   <diagram id="lONSl1WvP-Y2HhNY9bX5" name="Page-1">
     <mxGraphModel dx="1022" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -114,6 +114,9 @@
         </mxCell>
         <mxCell id="gMHcxJPYBYsG8lV3nRY1-18" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="OOo40dx6nglXUyH_PE12-3">
           <mxGeometry x="335" y="20" width="50" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-21" value="- SQS message&lt;br&gt;- SQS dead letter queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOo40dx6nglXUyH_PE12-3">
+          <mxGeometry x="160" y="120" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gMHcxJPYBYsG8lV3nRY1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="OOo40dx6nglXUyH_PE12-1" source="OOo40dx6nglXUyH_PE12-27">
           <mxGeometry relative="1" as="geometry">
