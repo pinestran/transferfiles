@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T13:30:32.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="17.1.2" etag="SnHgi0eAjnkLOPbeS130" type="github"><diagram id="Cg81ZXtn_2XwtpP4w5Sl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-26T15:20:12.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="T-3p-ZuQN2lD0aAXwkvL" version="17.1.2" type="github">
+  <diagram id="Cg81ZXtn_2XwtpP4w5Sl" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="treDRiqKtWni4EzDxUib-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="treDRiqKtWni4EzDxUib-2" value="Header Slot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="treDRiqKtWni4EzDxUib-3" value="Heading slot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="treDRiqKtWni4EzDxUib-4" value="Footer slot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="treDRiqKtWni4EzDxUib-6" value="Your template" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="treDRiqKtWni4EzDxUib-7" value="Content slot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="treDRiqKtWni4EzDxUib-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="treDRiqKtWni4EzDxUib-9" value="Content slot for template" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="130" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
