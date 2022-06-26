@@ -1,0 +1,197 @@
+<mxfile host="app.diagrams.net" modified="2021-04-26T07:57:22.715Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="NGFEZgZOhZX-LryQG9Tc" version="14.6.1" type="github">
+  <diagram id="lONSl1WvP-Y2HhNY9bX5" name="Page-1">
+    <mxGraphModel dx="1022" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OOo40dx6nglXUyH_PE12-1" value="Generic Flow" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="410" width="1220" height="330" as="geometry">
+            <mxRectangle y="530" width="30" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="OOo40dx6nglXUyH_PE12-1" source="OOo40dx6nglXUyH_PE12-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="OOo40dx6nglXUyH_PE12-1" source="OOo40dx6nglXUyH_PE12-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="140" />
+              <mxPoint x="516" y="140" />
+            </Array>
+            <mxPoint x="516.25" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-43" value="store the mapping" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="OOo40dx6nglXUyH_PE12-1" source="OOo40dx6nglXUyH_PE12-28" edge="1">
+          <mxGeometry x="-0.9331" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="759.75" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="406.25" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-44" value="store the transaction log" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="OOo40dx6nglXUyH_PE12-1" source="OOo40dx6nglXUyH_PE12-29" edge="1">
+          <mxGeometry x="-0.9498" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="250" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="542.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-2" value="Input" style="swimlane;html=1;startSize=20;horizontal=0;" parent="OOo40dx6nglXUyH_PE12-1" vertex="1">
+          <mxGeometry x="20" width="1200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="OOo40dx6nglXUyH_PE12-2" source="OOo40dx6nglXUyH_PE12-25" target="cDs7TkjnFNsFu-oyCOZs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-25" value="&lt;span style=&quot;text-align: center&quot;&gt;Create Platform Application&lt;/span&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;align=left;arrowWidth=0.7666666666666667;arrowSize=0.28;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="50" y="30" width="110" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="OOo40dx6nglXUyH_PE12-2" source="OOo40dx6nglXUyH_PE12-26" target="OOo40dx6nglXUyH_PE12-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-26" value="&lt;span style=&quot;text-align: center&quot;&gt;Create database tables for given application&lt;/span&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;align=left;arrowWidth=0.7666666666666667;arrowSize=0.28;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="304.75" y="30" width="110" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-27" value="&lt;div style=&quot;text-align: center&quot;&gt;Store configurations into DDB&lt;/div&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;align=left;arrowWidth=0.7666666666666667;arrowSize=0.28;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="444.75" y="30" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-28" value="&lt;span style=&quot;text-align: center&quot;&gt;Create mapping between device endpoint and&amp;nbsp;&lt;/span&gt;subscriber identity" style="shape=singleArrow;whiteSpace=wrap;html=1;align=left;arrowWidth=0.7666666666666667;arrowSize=0.28;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="654.75" y="30" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-29" value="Publish Message to device endpoint" style="shape=singleArrow;whiteSpace=wrap;html=1;align=left;arrowWidth=0.7666666666666667;arrowSize=0.28;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="864.75" y="30" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-45" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;align=left;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="1094.75" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-46" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;align=left;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="1114.75" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-47" value="Push Notification displayed on subscriber&#39;s device(s)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="1054.75" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="OOo40dx6nglXUyH_PE12-2" source="cDs7TkjnFNsFu-oyCOZs-1" target="OOo40dx6nglXUyH_PE12-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDs7TkjnFNsFu-oyCOZs-1" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;Create Queue SQS&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;align=left;arrowWidth=0.7666666666666667;arrowSize=0.28;" parent="OOo40dx6nglXUyH_PE12-2" vertex="1">
+          <mxGeometry x="180" y="30" width="110" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="OOo40dx6nglXUyH_PE12-1" source="OOo40dx6nglXUyH_PE12-25" target="OOo40dx6nglXUyH_PE12-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="170" />
+              <mxPoint x="125" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-3" value="output" style="swimlane;html=1;startSize=20;horizontal=0;" parent="OOo40dx6nglXUyH_PE12-1" vertex="1">
+          <mxGeometry x="20" y="150" width="1200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-7" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Platform Application ARN (Android &amp;amp; iOS)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;AppID and SecretID (Huawei)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="OOo40dx6nglXUyH_PE12-3" vertex="1">
+          <mxGeometry x="30" y="30" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-13" value="- table 1: store Mapping between device endpoint and subcriber identity&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="OOo40dx6nglXUyH_PE12-3" vertex="1">
+          <mxGeometry x="290" y="110" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-41" value="&lt;span style=&quot;&quot;&gt;- table 2: transaction log of the given application/ channel&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="OOo40dx6nglXUyH_PE12-3" vertex="1">
+          <mxGeometry x="420" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-6" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="OOo40dx6nglXUyH_PE12-3">
+          <mxGeometry x="191" y="28.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-73" value="Table configuration: store the Platform Application ARN, AppID and SecretID&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="OOo40dx6nglXUyH_PE12-3" vertex="1">
+          <mxGeometry x="637.5" y="130" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-16" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="OOo40dx6nglXUyH_PE12-3">
+          <mxGeometry x="470" y="69" width="50" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-17" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="OOo40dx6nglXUyH_PE12-3">
+          <mxGeometry x="585.5" y="112.5" width="50" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-18" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="OOo40dx6nglXUyH_PE12-3">
+          <mxGeometry x="335" y="20" width="50" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-21" value="- SQS message&lt;br&gt;- SQS dead letter queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OOo40dx6nglXUyH_PE12-3">
+          <mxGeometry x="160" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="OOo40dx6nglXUyH_PE12-1" source="OOo40dx6nglXUyH_PE12-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="631.25" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-49" value="go to AWS console or HMS console" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="OOo40dx6nglXUyH_PE12-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-48" value="Rollout Team" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
+          <mxGeometry x="104" y="315" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-55" value="Some possible use cases: &lt;br&gt;- When subscriber registers new account&amp;nbsp;&lt;br&gt;- When subscriber logs in the app&amp;nbsp;&lt;br&gt;- When app stars (if app serves also the &lt;br&gt;anonymous user)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.418;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;align=left;" parent="1" source="OOo40dx6nglXUyH_PE12-54" target="OOo40dx6nglXUyH_PE12-28" edge="1">
+          <mxGeometry x="-0.4643" y="-80" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-62" value="call API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OOo40dx6nglXUyH_PE12-55" vertex="1" connectable="0">
+          <mxGeometry x="0.2756" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-54" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="734.75" y="250" width="40" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-59" value="a webtool/ script to call API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="OOo40dx6nglXUyH_PE12-56" edge="1">
+          <mxGeometry x="0.1115" y="5" relative="1" as="geometry">
+            <mxPoint x="969.75" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-56" value="Rollout Team&lt;br&gt;Application Campaign Team" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
+          <mxGeometry x="944.75" y="290" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-63" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Overview workflow&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="35" y="180" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-64" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Create Application Endpoint&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry y="790" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-65" value="- Will be handled by rollout team&lt;br&gt;- Go to AWS console to create the Platform Application. The output is the Platform Application ARN (AWS Resource Name)&lt;br&gt;- Go to HMS (Huawei Mobile Service) to create the application. The output is the AppID and SecretID&amp;nbsp;&amp;nbsp;&lt;br&gt;The Application Platform information will be stored into database table called &quot;Configuration&quot;&lt;br&gt;An API will be provided to store these configuration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="840" width="760" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-76" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Create Database Tables&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry y="910" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-77" value="with an application channel, we need to create 2 database tables:&amp;nbsp;&lt;br&gt;- table 1: to store the mapping between device endpoint and the subscriber identify of the given channel&amp;nbsp;&lt;br&gt;- table 2: to store the transaction log for the Publish Message API. This is to track if a message is published completely to a device endpoint or&amp;nbsp; not.&amp;nbsp;&lt;br&gt;Note: since one single table for all the channels will not be sustainable. So we proposed to have dedicated table for each channel.&amp;nbsp;&lt;br&gt;The database table name has to be follow a pre-defined naming convention.&amp;nbsp;&lt;br&gt;APIs will be provided for the rollout team to create the database tables .&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="970" width="800" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-78" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Check if the Application Platform created is ready to serve the Channel Application&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry y="1060" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-80" value="This is to check if the Platform Application is ready to cater for doing Push Notification. Some criteria to be checked:&amp;nbsp;&lt;br&gt;- Platform Application ARN (for Android and iOS)&amp;nbsp;&lt;br&gt;- AppID and SecretID (for Huawei Device)&amp;nbsp;&lt;br&gt;- ChannelID&amp;nbsp;&lt;br&gt;- 2 database tables&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="14.75" y="1110" width="760" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-81" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Create Mapping&amp;nbsp;&lt;/font&gt;&lt;span&gt;between device endpoint and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;subscriber identity&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry y="1180" width="590" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-82" value="In the original discussion, the term &quot;serviceNumber&quot; is used to identify the subscriber whose device the notification wants to push into. However, the subscriber can&amp;nbsp; be identified not only by service number, but also by account number (for broadband user), email ...So we use another term that sounds more appropriate &quot;subscriber identity&quot;&lt;br&gt;&lt;br&gt;This action would be triggered accordingly in the follow use cases:&amp;nbsp;&lt;br&gt;-&amp;nbsp; When a user registers a new account in the channel app.&lt;br&gt;&lt;div&gt;- When user login an existing account in the channel app. This is the deal with the fact that one user uses the application on multiple devices&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;-&amp;nbsp;&lt;/span&gt;Depending on the business rule, this API can be called when user starts using the app without registration or login yet. For example: some ecommerce shopping apps do send push notification to the device though the user is using the app as a guest (anonymous user)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The API to handle this action requires to have these mandatory parameter:&amp;nbsp;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;-&amp;nbsp;&lt;span&gt;Subscriber identity (could be either email, MSISDN, Account number..)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- ChannelID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- DeviceID&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="14.75" y="1300" width="760" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-84" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Publish Message to a subscriber&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1430" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OOo40dx6nglXUyH_PE12-85" value="Instead publishing a message to a device endpoint, this action is actually to publish the message to all devices of a subscriber in a given channel. Therefore, the API of this action will require to have these parameters:&amp;nbsp;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;- Subscriber identity (could be either email, MSISDN, Account number..)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;- ChannelID&amp;nbsp;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;- Message Title&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;- Message Body&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1490" width="760" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gMHcxJPYBYsG8lV3nRY1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="cDs7TkjnFNsFu-oyCOZs-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
