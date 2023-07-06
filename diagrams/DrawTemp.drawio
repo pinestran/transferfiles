@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T02:18:40.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HEVYSfTfQeOneXmHMMm-" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T03:50:46.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="N-4VIKnY1xsm4PAwhr65" version="21.5.2" type="github">
   <diagram id="ij2i_KdfuDkdz7vN2ZKl" name="Page-1">
-    <mxGraphModel dx="1784" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1784" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -757,6 +757,12 @@
         </mxCell>
         <mxCell id="-KDHDOPXp-Qc8bYEUniG-27" value="Reset to default&amp;nbsp;&lt;br&gt;shipping address." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1600" y="1670" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-KDHDOPXp-Qc8bYEUniG-46" value="Click on &lt;b&gt;Next &lt;/b&gt;to Submit and process data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1390" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-KDHDOPXp-Qc8bYEUniG-47" value="Redirect to next step" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1900" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
