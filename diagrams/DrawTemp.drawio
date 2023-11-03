@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T05:08:27.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="D_o8UxwjacUBeW9F41uZ" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-03T05:09:42.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="DAIVupebel_6nsApj3iZ" version="22.0.8" type="github" pages="3">
   <diagram id="ij2i_KdfuDkdz7vN2ZKl" name="Page-1">
     <mxGraphModel dx="1644" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1187,6 +1187,9 @@
         </mxCell>
         <mxCell id="kNhLAAqzXiuF-uI3XXMp-100" value="Salesforce" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1034.56" y="1178" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kNhLAAqzXiuF-uI3XXMp-102" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;SCC (Hybris)&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="1160" width="137.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
