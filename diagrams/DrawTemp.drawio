@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T04:19:10.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="PunopxDe8OHAavCIHbHi" version="22.1.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-12T06:58:59.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="VjTJVAls6PeMtzEN6Fkh" version="22.1.7" type="github" pages="4">
   <diagram id="ij2i_KdfuDkdz7vN2ZKl" name="Page-1">
     <mxGraphModel dx="1884" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1192,7 +1192,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rkXAG0_9xYMBljdLHtnE" name="Page-4">
-    <mxGraphModel dx="1034" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1212" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1286,8 +1286,8 @@
         <mxCell id="y3s47zo6AUlwTIT-mlZ5-22" value="&lt;div&gt;Category inputted&lt;/div&gt;&lt;div&gt;from cronjob&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="140" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y3s47zo6AUlwTIT-mlZ5-23" value="2. Category Product Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="210" width="130" height="40" as="geometry" />
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-23" value="3. All Category Tree Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="y3s47zo6AUlwTIT-mlZ5-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1315,6 +1315,132 @@
         </mxCell>
         <mxCell id="y3s47zo6AUlwTIT-mlZ5-31" value="This tree will be exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="863" y="275" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-32" value="category [0]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-33" value="sub-categogy1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-34" value="sub-category2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-36" value="sub-categogy1-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-37" value="sub-categogy1-2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-38" value="sub-categogy2-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-39" value="sub-categogy2-2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y3s47zo6AUlwTIT-mlZ5-32" target="y3s47zo6AUlwTIT-mlZ5-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="y3s47zo6AUlwTIT-mlZ5-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="620" as="sourcePoint" />
+            <mxPoint x="370" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y3s47zo6AUlwTIT-mlZ5-33" target="y3s47zo6AUlwTIT-mlZ5-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y3s47zo6AUlwTIT-mlZ5-33" target="y3s47zo6AUlwTIT-mlZ5-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="500" as="sourcePoint" />
+            <mxPoint x="520" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y3s47zo6AUlwTIT-mlZ5-34" target="y3s47zo6AUlwTIT-mlZ5-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y3s47zo6AUlwTIT-mlZ5-34" target="y3s47zo6AUlwTIT-mlZ5-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="700" as="sourcePoint" />
+            <mxPoint x="500" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-51" value="&lt;div&gt;Category inputted&lt;/div&gt;&lt;div&gt;from cronjob&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-52" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="464.5" as="sourcePoint" />
+            <mxPoint x="710" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-53" value="This tree will be exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="703" y="450" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-54" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="579.5" as="sourcePoint" />
+            <mxPoint x="710" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-55" value="This tree will be exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="703" y="565" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-56" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.458;entryY=-0.091;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419" y="748" as="sourcePoint" />
+            <mxPoint x="419.14" y="779.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-57" value="This tree will be exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="774" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-58" value="2. Category Product Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-59" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="659.5" as="sourcePoint" />
+            <mxPoint x="710" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-60" value="This tree will be exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="703" y="645" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-61" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="779.5" as="sourcePoint" />
+            <mxPoint x="710" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-62" value="This tree will be exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="703" y="765" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-64" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.484;entryY=0.968;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419" y="495" as="sourcePoint" />
+            <mxPoint x="419.43999999999994" y="458.0400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-65" value="This tree will be exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="433" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-66" value="Root tree will be exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="670" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3s47zo6AUlwTIT-mlZ5-67" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="258" y="646" as="sourcePoint" />
+            <mxPoint x="258" y="676" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
