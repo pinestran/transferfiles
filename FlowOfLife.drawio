@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T04:05:00.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="5jA33ZLjQsZmAUx9xuEF" version="24.4.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="24.7.12" pages="3">
   <diagram id="IhKAoPoE0tZihIorcKFJ" name="Tổng quát">
     <mxGraphModel dx="1644" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -351,7 +351,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w0u45JNGSzn7q2OaYi-F" name="Page-3">
-    <mxGraphModel dx="1884" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2441" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -461,7 +461,7 @@
             <mxPoint x="549" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZXW5JQ_ntJX0bVy-ILBB-26" value="&lt;div&gt;thiepmoi.online&lt;/div&gt;&lt;div&gt;(30p/day)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="ZXW5JQ_ntJX0bVy-ILBB-26" value="&lt;div&gt;pinestran.com&lt;br&gt;&lt;/div&gt;&lt;div&gt;(30p/day)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="489" y="705" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZXW5JQ_ntJX0bVy-ILBB-28" value="Senior SAP-Hybris" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -599,7 +599,7 @@
         <mxCell id="ZXW5JQ_ntJX0bVy-ILBB-73" value="2024 - 2039" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="790" y="295" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1ar6ljQo_zhcbUCGEkiG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bySdRWKREcts1AqP6Oa7-1">
+        <mxCell id="1ar6ljQo_zhcbUCGEkiG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="bySdRWKREcts1AqP6Oa7-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="705" y="670" as="targetPoint" />
           </mxGeometry>
